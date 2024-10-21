@@ -19,3 +19,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+### Key Points:
+- **Architecture**: Explained with a basic diagram.
+- **Setup**: Step-by-step instructions for the publisher (Raspberry Pi), broker (Ubuntu), and subscriber (Ubuntu).
+- **Future Work**: Expanded to suggest additional features with a brief technical explanation.
+- **License and Contributing**: These are typical for open-source GitHub repositories.
+
+
