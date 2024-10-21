@@ -44,7 +44,7 @@ This project demonstrates an MQTT-based publish-subscribe (pub-sub) model for se
 - DHT11 Python library (for sensor readings)
 - `mosquitto` MQTT broker (on Ubuntu)
 
-## Setup Guide
+## Setup Instructions
 
 ### 1. Install MQTT Broker (Mosquitto) on Ubuntu
 ```bash
@@ -52,4 +52,45 @@ sudo apt update
 sudo apt install mosquitto mosquitto-clients
 sudo systemctl enable mosquitto
 sudo systemctl start mosquitto
+```
+### 2. Install Required Libraries on Raspberry Pi
+```bash
+sudo apt update
+sudo apt install python3-pip
+pip3 install paho-mqtt
+pip3 install Adafruit_DHT
+```
+### 3. Publisher Setup (Raspberry Pi 3)
+- Connect the DHT11 sensor to the Raspberry Pi GPIO pins.
+- Use the Adafruit_DHT library to read sensor data.
+- Publish the data to the MQTT broker.
+
+### 4. Refer to the 
+```bash
+producer.py
+```
+and 
+```bash
+subscriber.py
+```
+for the codes.
+
+### 5. Run the Project
+ Start the Mosquitto broker on the Ubuntu machine by running:
+
+```bash
+
+sudo systemctl start mosquitto
+```
+Run the publisher on Raspberry Pi:
+
+```bash
+
+python3 publisher.py
+```
+Run the subscriber on another Ubuntu machine:
+
+```bash
+
+python3 subscriber.py
 ```
