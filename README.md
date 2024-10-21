@@ -94,3 +94,6 @@ Run the subscriber on another Ubuntu machine:
 
 python3 subscriber.py
 ```
+
+
+#### FOR THE IN-DEPTH UNDERSTANDING REFER TO THE [PDF ADDED](https://github.com/pranay-patle/MQTT-Pub-Sub-Model-for-Sensor-Data-Collection/blob/main/Mqtt_pub_sub_model.pdf)
