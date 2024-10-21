@@ -31,3 +31,23 @@ This project demonstrates an MQTT-based publish-subscribe (pub-sub) model for se
 | Raspberry Pi 3 |       |      (Ubuntu)     |       |    (Ubuntu)    |
 |  (DHT11 data)  |       |    Mosquitto      |       |   Process data |
 +----------------+       +------------------+       +----------------+
+Hardware Requirements
+
+    Raspberry Pi 3 (or later)
+    DHT11 sensor (or DHT22)
+    Jumper wires
+    Breadboard
+    Two Ubuntu machines (or any Linux-based system) for the broker and subscriber roles
+
+Software Requirements
+
+    Raspberry Pi OS (latest version)
+    Ubuntu 20.04 or later
+    Python 3.x
+    paho-mqtt library for MQTT communication
+    Adafruit-DHT library for interfacing with the DHT11 sensor
+    mosquitto MQTT broker for Ubuntu
+
+Installation and Setup
+1. Setting up the Raspberry Pi (Publisher)
+Install the required libraries:
